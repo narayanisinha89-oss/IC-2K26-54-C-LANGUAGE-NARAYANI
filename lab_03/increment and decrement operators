@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main(){
+
+//increment ;
+
+int a = 6;
+int b = 7;
+b = ++a;
+printf("%d\n",b);
+printf("%d\n",a);
+b = a++;
+printf("%d\n",b);
+printf("%d\n",a);
+int c = (a++)+(++a);
+printf("%d\n",c);
+return 0;}
+
+
+#include<stdio.h>
+int main(){
+//decrement operator;
+int a = 8;
+int b = 7;
+b = --a;
+printf("%d\n",b);
+printf("%d\n",a);
+b = a--;
+printf("%d\n",b);
+printf("%d\n",a);
+int c = (a--)-(--a);
+printf("%d\n",c);
+return 0;}
