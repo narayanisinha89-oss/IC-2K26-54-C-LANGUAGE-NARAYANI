@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int a,b;
+printf("enter two number for a and b");
+scanf("%d %d",&a,&b);
+
+printf("sum=%d\n",a+b);
+printf("sub=%d\n",a-b);
+printf("multiplication=%d\n",a*b);
+printf("division=%d\n",a/b);
+printf("modular=%d\n",a%b);
+return 0;}
