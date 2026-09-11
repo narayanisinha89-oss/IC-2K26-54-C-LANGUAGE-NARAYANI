@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+//multiplication of two number ,taking input from user;
+int a,b;
+printf("enter two number for a and b");
+scanf("%d %d",&a,&b);
+int c=a*b;
+printf("%d",c);
+return 0;}
+
+#include<stdio.h>
+int main(){
+//division of two number,taking input from user;
+float a,b;
+printf("enter two number for a and b");
+scanf("%f %f",&a,&b);
+float c=a/b;
+//do not take value of b=0;
+printf("%f",c);
+return 0;}
