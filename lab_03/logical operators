@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+//logical operators,taking input form user;
+int a,b,c;
+printf("give numbers for a ,b and c");
+scanf("%d %d %d",&a,&b,&c);
+printf("%d\n",(a>b)&&(b>c));
+printf("%d\n",(a>b)||(b<c));
+printf("%d\n",!(a>b));
+printf("%d\n",!((a>b)&&(b>c)));
+return 0;}
