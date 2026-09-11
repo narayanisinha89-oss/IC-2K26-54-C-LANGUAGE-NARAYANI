@@ -14,11 +14,11 @@ return 0;}
 
 #include<stdio.h>
 int main(){
-//multiplication of two number ,taking input from user;
+  //subtraction of 2 number , taking input from user;
 int a,b;
 printf("enter two number for a and b");
-scanf("%d %d",&a,&b);
-int c=a*b;
+printf("%d %d",&a,&b");
+int c=a-b;
 printf("%d",c);
 return 0;}
 
