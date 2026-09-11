@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+//incorrect code;
+    int a = 10;
+    printf("%d", A);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+//correct code;
+int a = 10;
+printf("%d",a); // c language is case sensitive;
+return 0;}
