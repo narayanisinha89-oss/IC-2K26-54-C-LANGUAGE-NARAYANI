@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{ //incorrect code;
+    int a;
+    scanf("%d", a);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+//correct code;
+int a;
+printf("enter value for a");
+scanf("%d",&a); // & address was missing ,here we take input from user and store it in variable a ;
+printf("%d",a); // printf function use to print output which was missing;
+return 0;}
