@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+//modular,taking input from user;
+int a,b;
+printf("enter two number for a and b");
+scanf("%d %d",&a,&b);
+int c=a%b;
+//do not take b=0;
+printf("%d",c);
+return 0;}
