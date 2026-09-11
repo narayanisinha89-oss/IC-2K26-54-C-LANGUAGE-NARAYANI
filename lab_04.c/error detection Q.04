@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{ //incorrect code;
+    int 1number = 10;
+    printf("%d", 1number);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+//correct code;
+int number = 10; //variables starts from alphabates or underscore(_);
+printf("%d",number);
+return 0;
+}
