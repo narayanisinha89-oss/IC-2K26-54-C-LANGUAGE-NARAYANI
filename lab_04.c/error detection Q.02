@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{ //incorrect code;
+    int a = 10;
+    printf("%d", a);
+    return 0
+}
+
+#include<stdio.h>
+int main(){
+//correct code;
+int a = 10;
+printf("%d",a);
+return 0; //missing of terminator,semicolon;
+}
