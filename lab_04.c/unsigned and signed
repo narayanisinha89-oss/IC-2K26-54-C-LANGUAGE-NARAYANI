@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{ //for unsigned ;
+    unsigned short int i=-9;
+    printf("%d",i);
+    return 0;
+}
+
+#include<stdio.h>
+int main(){
+//for signed ;
+signed short int i = 24;
+printf("%d",i);
+return 0;}
