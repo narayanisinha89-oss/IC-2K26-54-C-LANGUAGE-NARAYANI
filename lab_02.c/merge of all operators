@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
+printf("Narayani roll number 54\n");
+
 int a,b;
 printf("enter two number for a and b");
 scanf("%d %d",&a,&b);
