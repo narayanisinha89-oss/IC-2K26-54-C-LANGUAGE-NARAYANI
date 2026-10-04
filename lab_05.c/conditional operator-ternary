@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+printf("NARAYANI ROLL NUMBER 54\n");
+
+int age;
+printf("enter age");
+scanf("%d",&age);
+age>=18 ? printf("audlt\n"):printf("not adult\n");
+return 0;
+}
