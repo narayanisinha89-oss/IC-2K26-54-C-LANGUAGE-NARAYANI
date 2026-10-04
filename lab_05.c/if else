@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+printf("Narayani roll number 54\n");
+int age = 24;
+if(age>=18){
+printf("adult");
+}
+else {
+printf("not adult");
+}
+return 0;
+}
