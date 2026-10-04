@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
 //addition of 2 number ,taking input from user;
+printf("Narayani roll number 54");
+
 int a,b;
 printf("enter number for a");
 scanf("%d",&a);
-
 printf("enter number for b");
 scanf("%d",&b);
-
 int c = a+b;
 printf("sum is %d",c);
 return 0;}
@@ -15,6 +15,7 @@ return 0;}
 #include<stdio.h>
 int main(){
   //subtraction of 2 number , taking input from user;
+printf("Narayani roll number 54");
 int a,b;
 printf("enter two number for a and b");
 scanf("%d %d",&a,&b);
