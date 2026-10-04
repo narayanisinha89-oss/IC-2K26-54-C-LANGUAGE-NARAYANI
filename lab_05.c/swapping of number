@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+printf("Narayani roll number 54\n");
+int a = 5;
+int b = 10;
+b = b-a;
+a = b+a;
+printf("%d %d",a,b);
+return 0;
+}
