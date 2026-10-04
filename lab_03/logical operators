@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+printf("Narayani roll number 54\n");
 //logical operators,taking input form user;
 int a,b,c;
 printf("give numbers for a ,b and c");
